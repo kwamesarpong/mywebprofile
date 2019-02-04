@@ -32,16 +32,16 @@ class Home extends Component {
                 <Link className="nav-link" to="/"><i className="fas fa-home ico-disp"></i></Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/">About</Link>
+                <Link className="nav-link" to="/"><i className="fas fa-male ico-disp"></i></Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/">Skills</Link>
+                <Link className="nav-link" to="/"><i className="fas fa-wrench ico-disp"></i></Link>
               </li> 
               <li className="nav-item">
-                <Link className="nav-link" to="/">Portfolio</Link>
+                <Link className="nav-link" to="/"><i className="fas fa-suitcase ico-disp"></i></Link>
               </li> 
               <li className="nav-item">
-                <Link className="nav-link" to="/">Contact</Link>
+                <Link className="nav-link" to="/"><i className="fas fa-phone ico-disp"></i></Link>
               </li> 
             </ul>
           </div> 
@@ -56,6 +56,8 @@ class Home extends Component {
                 <h1 className="main-desc">I'm Kay.</h1>
                 <h1 className="main-desc">Web and mobile developer.</h1>
                 <p className="skill-test fade-in">Frontend / React / React Native</p>
+
+                <Link to="/contact-me" className="contact-link fade-in">Contact me</Link>
               </div>
               
             </div>
